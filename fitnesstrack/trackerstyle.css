@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .Sports {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gym,
+  .run,
+  .cycle,
+  .swim {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #f29305;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f09f26;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  .timer {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+  
+  .timer:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  
